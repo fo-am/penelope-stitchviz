@@ -1,4 +1,4 @@
-#Modelling and visualisation of stitches for the Penelope Project
+# Modelling and visualisation of stitches for the Penelope Project
 
 A language and modelling system for textiles, taking a "thread" centric 
 perspective. Designed to be driven by Alex McLean's higher level thread
@@ -6,7 +6,8 @@ language.
 
 ![](pic.jpg)
 
-Code takes the form of comma separated lists of instructions.
+The "intermediate code" this software recognises takes the form of comma 
+separated lists of instructions.
 
 Instructions:
 
@@ -17,7 +18,7 @@ Instructions:
 - turn out: turn 90 degrees in current direction and flip current direction
 - twist: rotate 90 degrees in thread axis
 
-##How it works
+## How it works
 
 These instructions are read by a procedural rendering system: a lisp compiler 
 and bytecode interpreter for 3D geometry called Jellyfish. This system is 
